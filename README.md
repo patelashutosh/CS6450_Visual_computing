@@ -1,10 +1,15 @@
 # Paper study and implementation - CS6450 Visual computing
 
-# Generalizable Cross-modality Medical Image Segmentation via Style Augmentation and Dual Normalization
+#### Supervisor: Prof. C Krishna Mohan
+#### Teaching Assistant: Aveen Dayal
+#### Presenter: Ashutosh Patel (CS21MDS14031)
+
+
+
+## Paper: Generalizable Cross-modality Medical Image Segmentation via Style Augmentation and Dual Normalization
 by [Ziqi Zhou](https://zzzqzhou.github.io/), [Lei Qi](http://palm.seu.edu.cn/qilei/), [Xin Yang](https://xy0806.github.io/), Dong Ni, [Yinghuan Shi](https://cs.nju.edu.cn/shiyh/index.htm). 
 
 ## Introduction
-
 This repository is for paper study and implementation of paper https://arxiv.org/abs/2112.11177.
 The original code is available at https://github.com/zzzqzhou/Dual-Normalization.
 Additional files were added to do preprocessing and testing improvelents which are listed in Preprocessing, Training and Testing section below.
