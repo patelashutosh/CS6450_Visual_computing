@@ -108,7 +108,7 @@ python -W ignore test_dn_unet_brats_ss.py \
   --num_classes 2 --data_dir [Your BraTS2018 Path]/npz_data
 ```
 
-#### For source dissimilar domains
+#### For source dis-similar domains
 ```
 python -W ignore test_dn_unet_brats_sd.py \
   --test_domain_list t1 t1ce flair --model_dir ./results/unet_dn_t2/model
