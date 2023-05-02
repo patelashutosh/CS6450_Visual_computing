@@ -54,7 +54,7 @@ T2 as source domain
 
 ## Preprocessing, Training and Testing
 ### Preprocessing:
-#### BraTS 2018 dataset:
+#### BraTS 2018 dataset preprocessing:
 
 If you are using the dataset downnloaded from Kaggle, use following script
 ```
@@ -71,7 +71,7 @@ Note each of the script takes these 3 parameters. Please update the paths and mo
     modality = 'flair'
 ```
 
-#### Cardiac dataset:
+#### Cardiac dataset preprocessing:
 
 Training data
 ```
@@ -91,7 +91,7 @@ Note each of the script takes these 4 parameters. Please update the paths, modal
     sub_modality = 500
 ```
 
-### Training
+### Training:
 Train on source domain T2.
 ```
 python -W ignore train_dn_unet.py \
@@ -100,7 +100,7 @@ python -W ignore train_dn_unet.py \
   --result_dir ./results/unet_dn_t2 --data_dir [Your BraTS2018 Path]/npz_data
 ```
 
-### Testing
+### Testing:
 For testing I have created 2 separate scripts for source similar and source dissimilar domains.
 Please refer to presentation for the details of which test domains belong to which category and use appropriate testing script.
 Test on target domains (T1, T1ce and Flair).
